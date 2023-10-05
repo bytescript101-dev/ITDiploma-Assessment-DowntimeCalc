@@ -56,9 +56,11 @@ namespace DowntimeCalculator //The entire app
                 float.Parse(txtDowntime4.Text), float.Parse(txtDowntime5.Text));
             calculate.SumArray();
             calculate.AvgArray();
-            
+            calculate.SortedArray();
+
+
             outputAvgDowntime.Text = "Average downtime: " + calculate.Avg.ToString() + "\r\n" + 
-                "Sorted downtime values are: " + "\r\n";
+                "Sorted downtime values are: " + "\r\n" + calculate.Numbers.ToString();
         }
     }
 }
