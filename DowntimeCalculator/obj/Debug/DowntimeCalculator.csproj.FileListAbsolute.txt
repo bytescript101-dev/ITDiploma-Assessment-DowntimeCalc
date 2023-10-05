@@ -1,0 +1,10 @@
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\bin\Debug\DowntimeCalculator.exe.config
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\bin\Debug\DowntimeCalculator.exe
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\bin\Debug\DowntimeCalculator.pdb
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\obj\Debug\DowntimeCalculator.csproj.AssemblyReference.cache
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\obj\Debug\DowntimeCalculator.Form1.resources
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\obj\Debug\DowntimeCalculator.Properties.Resources.resources
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\obj\Debug\DowntimeCalculator.csproj.GenerateResource.cache
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\obj\Debug\DowntimeCalculator.csproj.CoreCompileInputs.cache
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\obj\Debug\DowntimeCalculator.exe
+C:\Repositories\ICTPRG430-Assessment\DowntimeCalculator\obj\Debug\DowntimeCalculator.pdb
