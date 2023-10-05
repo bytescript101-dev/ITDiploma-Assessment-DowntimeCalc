@@ -11,7 +11,7 @@ namespace DowntimeCalculator
 {
     internal class Downtime
     {
-        float[] numbers = new float[5];
+        public float[] numbers = new float[5];
         private float sum;
         private float avg;
         
@@ -23,6 +23,7 @@ namespace DowntimeCalculator
             numbers[2] = txtDowntime3;
             numbers[3] = txtDowntime4;
             numbers[4] = txtDowntime5;
+            Array.Sort(numbers);
         }
 
         public Downtime()
@@ -34,6 +35,10 @@ namespace DowntimeCalculator
             get
             {
                 return sum;
+            }
+            set
+            {
+                sum = value;
             }
         }
 
@@ -63,13 +68,18 @@ namespace DowntimeCalculator
             return avg;
         }
 
-        public string SortedArray()
+        public float[] Numbers
+        {
+            get
+            {
+                return numbers;
+            }
+        }
+
+        public float[] SortedArray()
         {
             Array.Sort(numbers);
-            foreach (float value in numbers)
-            {
-                MessageBox.Show(numbers);
-            }
+            return numbers;
         }
     }
 }
